@@ -1,0 +1,47 @@
+{
+    "name": "webfic_pc",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "staging": "cross-env NODE_ENV=staging nuxt build",
+        "startdev": "cross-env NODE_ENV=development nuxt start",
+        "production": "cross-env NODE_ENV=production nuxt build",
+        "analyzer": "cross-env NODE_ENV=analyzer nuxt build",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate",
+        "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+        "lint": "npm run lint:js"
+    },
+    "dependencies": {
+        "@nuxt/components": "^1.1.1",
+        "@nuxt/content": "1.9.0",
+        "@nuxtjs/axios": "5.12.2",
+        "@nuxtjs/dotenv": "^1.4.1",
+        "@nuxtjs/pwa": "3.0.2",
+        "babel-core": "6.26.3",
+        "babel-loader": "8.2.1",
+        "babel-preset-env": "1.7.0",
+        "core-js": "3.6.5",
+        "nuxt": "2.14.6",
+        "vue-breakpoints": "^1.1.0",
+        "vue-i18n": "^8.22.2",
+        "vue-notification": "1.3.20",
+        "vue-notifications": "1.0.2"
+    },
+    "devDependencies": {
+        "@nuxtjs/eslint-config": "3.1.0",
+        "@nuxtjs/eslint-module": "2.0.0",
+        "@nuxtjs/vuetify": "1.11.2",
+        "babel-eslint": "10.1.0",
+        "cross-env": "7.0.2",
+        "eslint": "7.10.0",
+        "eslint-plugin-nuxt": "1.0.0",
+        "less": "3.12.2",
+        "less-loader": "7.1.0",
+        "node-less": "1.0.0",
+        "vue-lazyload": "1.3.3",
+        "webpack-bundle-analyzer": "4.1.0"
+    }
+}

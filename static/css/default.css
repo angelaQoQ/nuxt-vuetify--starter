@@ -1,0 +1,16 @@
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
+.transSearch-enter-active,
+.transSearch-leave-active {
+  transition: opacity 0.5s;
+}
+.transSearch-enter,
+.transSearch-leave-active {
+  opacity: 0;
+}

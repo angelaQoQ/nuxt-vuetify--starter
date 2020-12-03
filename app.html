@@ -1,0 +1,27 @@
+<!-- nuxt 模板文件 -->
+<!DOCTYPE html>
+<!--[if IE 9]><html lang="en-US" class="lt-ie9 ie9" {{ HTML_ATTRS }}><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html {{ HTML_ATTRS }}><!--<![endif]-->
+    <html {{ HTML_ATTRS }}>
+        <head {{ HEAD_ATTRS }}>
+            {{ HEAD }}
+            <!-- vuetify字体样式 -->
+            <link
+                href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"
+                rel="stylesheet"
+            />
+            <link
+                href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css"
+                rel="stylesheet"
+            />
+            <!-- 样式重置 -->
+            <!-- <link
+                rel="stylesheet"
+                href="https://yarnpkg.com/en/package/normalize.css"
+            /> -->
+        </head>
+        <body {{ BODY_ATTRS }}>
+            {{ APP }}
+        </body>
+    </html>
+</html>
